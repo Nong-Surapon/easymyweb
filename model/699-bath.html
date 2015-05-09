@@ -13,6 +13,7 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	padding:0px;
+	
 }
 h1{
 	color:#EE4B28;
@@ -65,6 +66,35 @@ a:active {
     text-decoration: none;
 }
 </style>
+
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+
+
+var myCenter=new google.maps.LatLng(13.593573, 100.566506); //#######Seting | Latitude Longitude########//
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:15,//#######ZOOM#########//
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </head>
 
 <body>
@@ -92,10 +122,160 @@ a:active {
     </tr>
  
     <tr>
-      <td><h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รับทำเว็บราคาถูก ฟรีโดเมนเนม เพียงท่านคิดชื่อโดเมนเนม แล้วติดต่อเรา >> ราคา 699 มีรูปทั้งหมด 4 รูป | >> ราคา 899 มีรูปทั้งหมด 6 รูป และ >> ราคา 1,000 มีรูปทั้งหมด 10 รูป แก้ไขข้อมูลฟรีจำนวน 1 ครั้ง ครั้งต่อไปคิดครั้งละ 300 บาท </h2></td>
+      <td><h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รับทำเว็บราคาถูก ฟรีโดเมนเนม เพียงท่านคิดชื่อโดเมนเนม แล้วติดต่อเรา >> ราคา 699 แบรนด์เนอร์รูปใหญ่หัวเว็บไซต์ 1 รูป มีรูปแกลอรี่ทั้งหมด 4 รูป >> ราคา 899 มีรูปแกลอรี่ทั้งหมด 6 รูป และ >> ราคา 1,000 มีรูปแกลอรี่ทั้งหมด 10 รูป แก้ไขข้อมูลฟรีจำนวน 1 ครั้ง ครั้งต่อไปคิดครั้งละ 300 บาท ทุกราคามีแผนที่ติดให้โดยใช้ google map หรือ รูปแผนที่ที่ท่านมี จำนวน 1 จุด รายละเอียดไม่เกิน 1 กระดาษ A4</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราสนับสนุนให้ ทุกบริษัท ห้าง ร้าน มีเว็บเป็นของตัวเองเพื่อประชาสัมพันธ์ บอกต่อถึงบริษัท ห้าง ร้าน ของท่านทำอะไร อยู่ที่ไหน และสามารถติดต่อได้ผ่านช่องท่างไหน โอกาศของท่านจะมากขึ้นเมื่อทุกวันนี้ทุกคนใช้ อินเตอร์เน็ตในการค้นหาสินค้า บริการ ที่ตนกำลังมองหาเป็นอันดับแรก เช่น ธุรกิจโรงแรม ห้องพักรายเดือน ห้องพักรายวัน สถานที่ท่องเที่ยว บริการนำเที่ยว บริการรับส่งสินค้า ธุรกิจค้า-ขาย และอีกมากมาย เรายินดีให้คำปรึกษา</h2></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+      <table width="1000" border="0">
+  <tbody>
+    <tr>
+      <td colspan="3"><h2>จ่ายเพียง 699 บาทไม่ต้องจ่ายเพิ่ม</h2><h3>เปรียบเทียบรายละเอียดค่าบริการทั่วไป (เป็นราคาทั่วไปตามตลาดทำเว็บ)</h3></td>
+    </tr>
+    <tr>
+      <td><font color="#EE4B28"><strong>ค่าบริการ</strong></font></td>
+      <td><font color="#EE4B28"><strong>ค่าบริการ easymyweb อีซี่มายเว็บ</strong></font></td>
+      <td><font color="#EE4B28"><strong>ค่าบริการทัวไป(ราคาเริ่มต้นตามตลาด)</strong></font></td>
+    </tr>
+    <tr>
+      <td>รับทำเว็บ</td>
+      <td>699 บาท</td>
+      <td>3,000 บาท</td>
+    </tr>
+    <tr>
+      <td>ค่าลงข้อมูลตกแต่งเว็บ</td>
+      <td>0 บาท (ฟรี 1 ครั้งต่อไป 300 บาท)</td>
+      <td>500 บาท / ครั้ง</td>
+    </tr>
+    <tr>
+      <td>ค่าออกแบบ</td>
+      <td>0 บาท / หน้า (ฟรี 1 ครั้งต่อไป 300 บาท)</td>
+      <td>800 / หน้า</td>
+    </tr>
+    <tr>
+      <td>ค่าโฮสติ้ง</td>
+      <td>0 บาท / ปี</td>
+      <td>1,000 / ปี</td>
+    </tr>
+    <tr>
+      <td>ค่าโดเมน</td>
+      <td>0 บาท / ปี</td>
+      <td>350 / ปี</td>
+    </tr>
+    <tr>
+      <td>รวมค่าบริการทั้งหมด</td>
+      <td> 699 / ปี ไม่ต้องจ่ายเพิ่ม*</td>
+      <td>5,650 บาท</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+   
+    <tr>
+      <td colspan="3">&nbsp;</td>
+      </tr>
+  </tbody>
+</table>
+      
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="1000" style="border: 1px" >
+  <tbody>
+  <tr>
+      <td colspan="7"><h2>แพ็คเกจสำรับ easy my web อีซี่มายเว็บ ทำเว็บราคาถูก</h2></td>
+      </tr>
+   <tr>
+      <td colspan="7">&nbsp;</td>
+      </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><font color="#EE4B28"><strong>รูปแบบแพ็คเกจ</strong></font></td>
+      <td bgcolor="#FFFFFF"><font color="#EE4B28"><strong>แพ็คเกจ 699</strong></font></td>
+      <td bgcolor="#FFFFFF"><font color="#EE4B28"><strong>แพ็คเกจ 799</strong></font></td>
+      <td bgcolor="#FFFFFF"><font color="#EE4B28"><strong>แพ็คเกจ 899</strong></font></td>
+      <td bgcolor="#FFFFFF"><font color="#EE4B28"><strong>แพ็คเกจ 999</strong></font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><b>จำนวนหน้า</b></td>
+      <td bgcolor="#FFFFFF"><font color="#AD071C">1 หน้า</font></td>
+      <td bgcolor="#FFFFFF"><font color="#2C5029">3 หน้า</font></td>
+      <td bgcolor="#FFFFFF"><font color="#0098BE">4 หน้า</font></td>
+      <td bgcolor="#FFFFFF"><font color="#9D0712">5 หน้า</font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><b>โดเมน</b></td>
+      <td bgcolor="#FFFFFF"><font color="#AD071C">ฟรี โดเมน .com หรือ .net</font></td>
+      <td bgcolor="#FFFFFF"><font color="#2C5029">ฟรี โดเมน .com หรือ .net</font></td>
+      <td bgcolor="#FFFFFF"><font color="#0098BE">ฟรี โดเมน .com หรือ .net</font></td>
+      <td bgcolor="#FFFFFF"><font color="#9D0712">ฟรี โดเมน .com หรือ .net</font></td>
+      </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><b>โฮสติ้ง</b></td>
+      <td bgcolor="#FFFFFF"><font color="#AD071C">ฟรี</font></td>
+      <td bgcolor="#FFFFFF"><font color="#2C5029">ฟรี</font></td>
+    <td bgcolor="#FFFFFF"><font color="#0098BE">ฟรี</font></td>
+    <td bgcolor="#FFFFFF"><font color="#9D0712">ฟรี</font></td>
+
+      </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><b>รูปภาพ</b></td>
+      <td bgcolor="#FFFFFF"><font color="#AD071C">4 รูป</font></td>
+      <td bgcolor="#FFFFFF"><font color="#2C5029">6 รูป</font></td>
+      <td bgcolor="#FFFFFF"><font color="#0098BE">8 รูป</font></td>
+      <td bgcolor="#FFFFFF"><font color="#9D0712">19 รูป</font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><b>เนื้อหา</b></td>
+      <td bgcolor="#FFFFFF"><font color="#AD071C">1 หน้ากระดาษ A4</font></td>
+      <td bgcolor="#FFFFFF"><font color="#2C5029">1 หน้ากระดาษ A4</font></td>
+      <td bgcolor="#FFFFFF"><font color="#0098BE">2 หน้ากระดาษ A4</font></td>
+      <td bgcolor="#FFFFFF"><font color="#9D0712">2 หน้ากระดาษ A4</font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><b>คลิกตัวอย่าง</b></td>
+      <td bgcolor="#FFFFFF"><font color="#AD071C"><b><a href="#" onclick="package699();">>>คลิก<<</a></b></font></td>
+      <td bgcolor="#FFFFFF"><font color="#2C5029"><b><a href="#" onclick="package799();">>>คลิก<<</a></b></font></td>
+      <td bgcolor="#FFFFFF"><font color="#0098BE"><b><a href="#" onclick="package899();">>>คลิก<<</a></b></font></td>
+      <td bgcolor="#FFFFFF"><font color="#9D0712"><b><a href="#" onclick="package999();">>>คลิก<<</a></b></font></td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+      </tr>
+     <tr>
+      <td colspan="7"><font size="2">* ก่อนส่งเอกสารให้เราท่านควรดูเองการของท่าน ไม่ให้ข้อมูลตกหล่นถูกต้องตามที่ท่านต้องการ ท่านจะไม่มีค่าใช้จ่ายเพิ่มเติมแต่อย่างใด เว้นแต่ท่านต้องการให้ท่างเราแก้ไขจะมีค่าใช้จ่ายครั้งละ 300 บาท ข้อมูลไม่เกิน 1 หน้ากระดาษ A4</font></td>
+      </tr>
+  </tbody>
+</table>
+      
+      
+      
+      
+      
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
     </tr>
     <tr>
       <td align="center"><font color="#EE4B28">***สนใจติดต่อ โทร 086-211-7963 อีเมล์ sale@easymyweb.com</font></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><img src="images/gallery-699.jpg"> </td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -122,15 +302,49 @@ a:active {
       <td>&nbsp;</td>
     </tr>
     <tr>
+      <td><img src="images/contact-699.jpg"> </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center"><div id="googleMap" style="width:500px;height:380px;"></div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center"><b>
+        <font color="#EE4B28">แผนที่ติดต่อ easy my web อีซี่มายเว็บ รับทำเว็บไซต์ราคาถูก</font><br><br></b> 
+        <font color="#EE4B28">189 หมุ่ 2 ตำบลในคลองบางปลากด อำเภอพระสมุทรเจดีย์ จังหวัดสมุทรปราการ</font><br><br>
+ <br>
+        <b><font color="#646464">โทร : 086-211-7963    ไลน์ไอดี : Suraponth</font><br><br>
+        <font color="#646464">อีเมล์ : sale@easymyweb.com</font></b><br><br>        
+    </tr>
+    <tr>
       <td>&nbsp;</td>
     </tr>
   </tbody>
 </table>
 </div>
 <div class="clear"></div>
-<div class="footer">© 2015 easymyweb.com All Rights Reserved.</div>
+<div class="footer">© 2015 <a href="http://easymyweb.com/"><font color="#ffffff" size="4">easymyweb.com</font></a> All Rights Reserved.</div>
 </div>
 
 
 </body>
 </html>
+<script>
+function package699() {
+  alert("แพ็คเกจ 699 มีรูปแบบเหมือนหน้านี้ค่ะ");
+}
+function package799() {
+  alert("แพ็คเกจ 799 มี 3 หน้าค่ะ หาท่านต้องการ เราจะคิดราคา 699 บาทให้ท่านทันที และ link ทำ SEO จากเว็บเราด้วยค่ะ ด่วน!!");
+}
+function package899() {
+  alert("แพ็คเกจ 899 มี 3 หน้าค่ะ หาท่านต้องการ เราจะคิดราคา 699 บาทให้ท่านทันที และ link ทำ SEO จากเว็บเราด้วยค่ะ ด่วน!!");
+}
+function package999() {
+  alert("แพ็คเกจ 999 มี 3 หน้าค่ะ หาท่านต้องการ เราจะคิดราคา 699 บาทให้ท่านทันที และ link ทำ SEO จากเว็บเราด้วยค่ะ ด่วน!!");
+}
+</script>
